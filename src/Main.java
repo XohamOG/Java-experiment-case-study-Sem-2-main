@@ -44,12 +44,12 @@ public class Main {
 
         //Using For Loop to Take user input for each client object
         do{
-            System.out.println("1 - add client");
-            System.out.println("2 - edit client");
-            System.out.println("3 - delete client");
-            System.out.println("4 - display clients");
+            System.out.println("1 - Add client");
+            System.out.println("2 - Edit client");
+            System.out.println("3 - Delete client");
+            System.out.println("4 - Display clients");
             System.out.println("5 - Enter record");
-            System.out.println("6 - exit");
+            System.out.println("6 - Exit");
             System.out.print("Enter Choice of Operation : ");
 
             int ch;
@@ -144,6 +144,11 @@ public class Main {
             }
                 else if (ch == 5){
                 System.out.println("Enter client id:");
+
+
+
+
+                
                 }
              else if (ch == 6) {
                 return;

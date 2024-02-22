@@ -26,12 +26,18 @@ package Model.Records;
 
 public class Records {
 
-
     int steps;
     int sleephrs;
     int hydration;
     boolean meditation;
 
+    public Records(int steps, int sleephrs, int hydration, boolean meditation)
+    {
+        this.steps = steps;
+        this.sleephrs = sleephrs;
+        this.hydration = hydration;
+        this.meditation = meditation;
+    }
 
     public void setsteps(int steps) {
         this.steps = steps;
