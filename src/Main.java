@@ -141,10 +141,11 @@ public class Main {
                     System.out.print("");
                     clientArr[i].display();
                 }
+            }
                 else if (ch == 5){
                 System.out.println("Enter client id:");
                 }
-            } else if (ch == 6) {
+             else if (ch == 6) {
                 return;
             } else {
                 System.out.println("Invalid input.");
